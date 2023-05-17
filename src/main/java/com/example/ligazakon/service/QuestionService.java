@@ -9,5 +9,5 @@ import java.util.List;
 public interface QuestionService {
     List<QuestionDto> getTopQuestions(int limit);
 
-    List<QuestionDto> getSimilarQuestions(String query, int count) throws InterruptedException;
+    List<QuestionDto> getSimilarQuestionsOrCreateIfNotExist(String query, int count) throws InterruptedException;
 }

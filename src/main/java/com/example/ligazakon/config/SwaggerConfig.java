@@ -12,12 +12,12 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI obminyashkaOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Currency API")
-                        .description("API Definitions of the Currency project")
+                .info(new Info().title("Liga API")
+                        .description("API Definitions of the Liga zakon project")
                         .version("v0.1.0")
                         .license(new License().name("Apache 2.0").url("https://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("Currency GitHub Docs")
+                        .description("Liga GitHub Docs")
                         .url("https://github.com/ennnbaev"));
     }
 }
